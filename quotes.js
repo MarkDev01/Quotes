@@ -27,7 +27,7 @@ console.log(length)
 function showQuote() {
   const randomIndex = Math.floor(Math.random() * length)
   console.log(randomIndex)
-  text.innerText = quotes[randomIndex]
+  text.innerText = quotes[randomIndex].quote
 }
 
 btn.addEventListener("click", showQuote)
